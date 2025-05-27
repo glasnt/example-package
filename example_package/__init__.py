@@ -1,2 +1,3 @@
 def example_function():
-    return 1 + 1
+    for _ in range(10):
+        print("ඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞ")

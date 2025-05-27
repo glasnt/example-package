@@ -15,7 +15,13 @@ pip install example-package
 ```
 ## Usage
 
-Usage instructions go here.
+Use the `[python.scripts]` entrypoints:
+
+```
+spam-cli
+```
+
+Will invoke the specified function (`ඞ`).
 
 ## Development
 

@@ -24,3 +24,7 @@ CI = "https://github.com/glasnt/example-package/actions"
 
 [project.optional-dependencies]
 test = ["pytest"]
+
+# https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#creating-executable-scripts
+[project.scripts]
+spam-cli = "example_package:example_function"
