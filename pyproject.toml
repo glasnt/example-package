@@ -1,6 +1,26 @@
 [project]
-name = "placeholder"
+name = "example-package"
 version = "0.1"
+description = "null"
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [{name = "Katie McLaughlin"}]
+license = "Apache-2.0"
+classifiers = []
+dependencies = [
+
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project.urls]
+Homepage = "https://github.com/glasnt/example-package"
+Changelog = "https://github.com/glasnt/example-package/releases"
+Issues = "https://github.com/glasnt/example-package/issues"
+CI = "https://github.com/glasnt/example-package/actions"
+
 
 [project.optional-dependencies]
 test = ["pytest"]
